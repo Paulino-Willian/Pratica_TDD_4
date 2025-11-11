@@ -47,3 +47,5 @@ class LoginFormTest(TestCase):
         form = LoginForm(data=data)
         form.is_valid()
         return form
+    
+    

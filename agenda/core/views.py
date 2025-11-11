@@ -21,7 +21,7 @@ def logout(request):
         auth_logout(request)
         return render(request, 'logout.html')
     return redirect("home")
-
+    
 
 @login_required
 def home(request):
